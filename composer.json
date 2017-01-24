@@ -1,0 +1,21 @@
+{
+    "name": "dwoo/plugins",
+    "license": "LGPL",
+    "type": "library",
+    "description": "Dwoo Plugins that do not belong to the core but can be nonetheless interesting to share with other developers.",
+    "authors": [
+        {
+            "name": "David Sanchez",
+            "email": "david38sanchez@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dwoo\\CommunityPlugins\\": "lib/Dwoo/CommunityPlugins/"
+        }
+    },
+    "require": {
+        "php": "^5.3|^7.0",
+        "dwoo/dwoo": "~1.3"
+    }
+}
